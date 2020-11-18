@@ -9,4 +9,4 @@ The goal is to predict sale price of house based on Kaggle data: https://www.kag
 5. Many of remaining features had distribution with dominance of particular label, for example the lowest value of YearRemodAdd (year of remodelling) was 1950, while there were older houses in the dataset. Such variables were removed from the analysis.
 6. The otuliers were removed from train set.
 7. Next the initial models were trained. Algorithms used in this example: Random Forest Regressor, SVR, Bayesian Ridge, Liner Regression. The scoring statistic was RMSE.
-8.Liner Regression archived higher score calculated as average result of cross-validation on the train set: RMSE =  17 750
+8.Liner Regression archived higher score calculated as average result of cross-validation on the train set: R2 = 0.88
